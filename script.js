@@ -12,10 +12,10 @@ options.forEach((choice)=>{
     let compChoice=choices[random];
         if(choice.getAttribute("class")==="rock btn"){
             if(compChoice=="scissors"){
-                userScore+=1;
+                userScore++;
                 userS.innerText=userScore;
             }else if (compChoice=="paper") {
-                compScore+=1;      
+                compScore++;      
                 compS.innerText=compScore          
             }else{
                 // alert("You both chose rock , so it's a draw!")
@@ -23,10 +23,10 @@ options.forEach((choice)=>{
             }
         } else if(choice.getAttribute("class")==="paper btn"){
             if(compChoice=="scissors"){
-                compScore+=1;  
+                compScore++;  
                 compS.innerText=compScore 
             }else if (compChoice=="rock") {
-                userScore+=1;
+                userScore++;
                 userS.innerText=userScore;                
             }else{
                 // alert("You both chose Paper , so it's a draw!")
@@ -34,10 +34,10 @@ options.forEach((choice)=>{
             }
         }else if(choice.getAttribute("class")==="scissors btn"){
             if(compChoice=="rock"){
-                compScore+=1;  
+                compScore++;  
                 compS.innerText=compScore 
             }else if (compChoice=="paper") {
-                userScore+=1; 
+                userScore++; 
                 userS.innerText=userScore;               
             }else{
                 // alert("You both chose Scissors , so it's a draw!")
