@@ -1,0 +1,81 @@
+body{
+    background-color: #167d8D;
+    color: white;
+    margin: 0px;
+}
+.panel{
+    font-size: 50px;
+    color: #167d8D;
+    height: 100px;
+    background-color: #071B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rock{
+    height: 250px;
+    width: 250px;
+    background-image: url(images/rock.png);
+    background-size: cover;
+    border-radius: 85px;
+}
+.paper{
+    height: 250px;
+    width: 250px;
+    background-image: url(images/paper.png);
+    background-size: cover;
+    border-radius: 85px;
+}
+.scissors{
+    height: 250px;
+    width: 250px;
+    background-image: url(images/scissors.png);
+    background-size: contain;
+    border-radius: 85px;
+}
+.btn{
+    background-color: #167d8D;
+    border:2px solid #071B2B;
+}
+.mainPic{
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 170px;
+}
+.btn:hover{
+    background-color: #B9E4E8;
+    cursor: pointer;
+}
+
+.Score{
+    margin-top:20px ;
+    font-size: 30px;
+    color: #B9E4E8;
+    background-color: #071B2B;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    position: relative;
+    top: 10px;
+    height: 50px;
+    background-color: #071B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userScore, .compScore{
+    font-size: 5rem;
+}
